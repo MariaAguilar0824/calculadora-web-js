@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Calculadora Científica</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="contenedor">
+
+
+<h1>🧮 Calculadora Científica</h1>
+
+
+<input type="number" id="numero1" placeholder="Primer número">
+
+<input type="number" id="numero2" placeholder="Segundo número">
+
+
+
+<div class="botones">
+
+<button onclick="sumar()">+</button>
+
+<button onclick="restar()">-</button>
+
+<button onclick="multiplicar()">*</button>
+
+<button onclick="dividir()">/</button>
+
+<button onclick="raizCuadrada()">√</button>
+
+<button onclick="cuadrado()">x²</button>
+
+<button onclick="porcentaje()">%</button>
+
+
+</div>
+
+
+<h2>Resultado</h2>
+
+<p id="resultado">---</p>
+
+
+
+<h2>Historial</h2>
+
+<ul id="historial"></ul>
+
+
+<button class="borrar" onclick="borrarHistorial()">
+Borrar historial
+</button>
+
+
+
+</div>
+
+
+
+<script src="scrypt.js"></script>
+
+
+</body>
+
+</html>
